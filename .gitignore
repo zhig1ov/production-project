@@ -6,3 +6,5 @@
 Thumbs.db
 .Trash
 /storybook-statics
+.loki/report.html
+.loki/report.json
