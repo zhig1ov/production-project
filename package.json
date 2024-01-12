@@ -20,7 +20,8 @@
     "test:ui:json": "node scripts/generate-visual-json-report.js",
     "test:ui:html": "reg-cli --from .loki/report.json --report .loki/report.html",
     "storybook": "storybook dev -p 6006 -c ./config/storybook",
-    "storybook:build": "storybook build -c ./config/storybook"
+    "storybook:build": "storybook build -c ./config/storybook",
+    "chromatic": "npx chromatic --project-token=chpt_bec082ae3cfbaef --build-script-name storybook:build"
   },
   "keywords": [],
   "author": "",
@@ -53,6 +54,7 @@
     "@typescript-eslint/parser": "^5.12.1",
     "babel-loader": "^8.2.3",
     "babel-plugin-i18next-extract": "^0.8.3",
+    "chromatic": "^10.2.1",
     "css-loader": "^6.6.0",
     "eslint": "^8.10.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -108,5 +110,7 @@
         "preset": "iPhone 7"
       }
     }
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "production-project@1.0.0"
 }

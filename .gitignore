@@ -8,3 +8,7 @@ Thumbs.db
 /storybook-statics
 .loki/report.html
 .loki/report.json
+build-storybook.log
+chromatic.log
+chromatic-build-*.xml
+chromatic-diagnostics.json
