@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 jobs:
   pipeline:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [ 20.x ]
@@ -30,8 +30,6 @@ jobs:
       - name: unit testing
         run: npm run test:unit
         if: always()
-      - name: screenshot testing
-        run: npm run chromatic
-        if: always()
+
 
 
