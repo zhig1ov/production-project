@@ -8,6 +8,7 @@ const meta = {
     component: Modal,
     parameters: {
         layout: 'centered',
+        loki: { skip: true },
     },
     tags: ['autodocs'],
 
