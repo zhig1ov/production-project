@@ -11,7 +11,9 @@
   "Главная": "Main",
   "Переключатель": "Toggle",
   "Короткий язык": "En",
-  "Войти": "Войти",
+  "Войти": "Login",
   "decrement": "decrement",
-  "increment": "increment"
+  "increment": "increment",
+  "Введите username": "Enter the username",
+  "Введите пароль": "Enter the password"
 }
