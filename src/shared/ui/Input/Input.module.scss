@@ -1,25 +1,25 @@
 .InputWrapper {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .placeholder {
-	margin-right: 5px;
+    margin-right: 5px;
 }
 
 .input {
-	background: transparent;
-	border: 1px solid #ddd;
-	outline: none;
-	width: 100%;
-	color: var(--primary-color);
-	text-shadow: 0 0 0 var(--primary-color);
+    background: transparent;
+    border: 1px solid #ddd;
+    outline: none;
+    width: 100%;
+    color: var(--primary-color);
+    text-shadow: 0 0 0 var(--primary-color);
 
-	&:focus {
-		outline: none;
-	}
+    &:focus {
+        outline: none;
+    }
 }
 
 .wrapper {
-	flex-grow: 1;
+    flex-grow: 1;
 }
