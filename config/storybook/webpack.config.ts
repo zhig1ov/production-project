@@ -28,5 +28,9 @@ export default ({ config }: {config: webpack.Configuration}) => {
         use: ['@svgr/webpack'],
     });
 
+    config.plugins.push(new webpack.DefinePlugin({
+        __IS_DEV__: true,
+    }));
+
     return config;
 };
