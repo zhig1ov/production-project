@@ -7,7 +7,7 @@ import { memo, useCallback } from 'react';
 import { Text, TextTheme } from 'shared/ui/Text/Text';
 import {
     DynamicModuleLoader,
-    ReducerList,
+    ReducersList,
 } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { getLoginError } from '../../model/selectors/getLoginError/getLoginError';
@@ -31,7 +31,7 @@ const LoginForm = memo(({ className, onSuccess }: LoginFormProps) => {
     const isLoading = useSelector(getLoginIsLoading);
     const error = useSelector(getLoginError);
 
-    const initialReducers: ReducerList = {
+    const initialReducers: ReducersList = {
         loginForm: loginReducer,
     };
 

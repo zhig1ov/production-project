@@ -1,6 +1,5 @@
 .InputWrapper {
     display: flex;
-    justify-content: space-between;
 }
 
 .placeholder {
@@ -10,7 +9,6 @@
 .input {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #ddd;
     outline: none;
     width: 100%;
     color: var(--primary-color);

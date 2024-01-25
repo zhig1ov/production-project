@@ -19,6 +19,7 @@ export const Navbar = memo(({ className }: NavbarProps) => {
 
     const authData = useSelector(getUserAuthData);
 
+    console.log(authData, '1');
     const onCloseModal = useCallback(() => {
         setIsAuthModal(false);
     }, []);
@@ -44,7 +45,7 @@ export const Navbar = memo(({ className }: NavbarProps) => {
             </div>
         );
     }
-
+    console.log(authData, '2');
     return (
         <div className={classNames(cls.Navbar, {}, [className])}>
             <Button

@@ -3,11 +3,12 @@
  * https://jestjs.io/docs/configuration
  */
 
-import path from 'path';
+import * as path from 'path';
 
 export default {
     globals: {
         __IS_DEV__: true,
+        __API__: '',
     },
     preset: 'ts-jest',
     coverageProvider: 'v8',
