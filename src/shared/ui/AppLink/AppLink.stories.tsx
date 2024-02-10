@@ -2,7 +2,6 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
 import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
-import { OutlineDark } from 'shared/ui/Button/Button.stories';
 
 const meta = {
     title: 'shared/AppLink',

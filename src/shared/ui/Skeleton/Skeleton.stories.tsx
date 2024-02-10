@@ -18,7 +18,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Normal: Story = {
     args: {
-        width: '100%',
+        width: '100vw',
         height: 200,
     },
 };
@@ -33,7 +33,7 @@ export const Circle: Story = {
 
 export const NormalDark: Story = {
     args: {
-        width: '100%',
+        width: '100vw',
         height: 200,
     },
 };

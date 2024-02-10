@@ -102,6 +102,18 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Привет, Мир!",
+      "id": "H7S2sOZ"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "Статья топ!!",
+      "id": "LIEiUih"
     }
   ],
   "users": [
@@ -120,14 +132,28 @@
       "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
     }
   ],
-  "profile": {
-    "first": "Артем",
-    "lastname": "Жиглов",
-    "age": 25,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Moscow",
-    "username": "admin",
-    "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Артем",
+      "lastname": "Жиглов",
+      "age": 25,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "admin",
+      "avatar": "https://sun6-23.userapi.com/s/v1/ig2/dUd6JuN-6tQlUCvidD46QGFSE0YAMo05D-L-KKReqr7goKAXWhNg2vuxi4gRSJpnaujUBOi-ihpvMfVR4Om1q4Df.jpg?size=1020x1020&quality=95&crop=0,0,1020,1020&ava=1"
+    },
+    {
+      "id": "2",
+      "first": "Игорь",
+      "lastname": "Робокотов",
+      "age": 99,
+      "currency": "RUB",
+      "country": "Belarus",
+      "city": "Moscow",
+      "username": "Robocotov",
+      "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
+    }
+  ]
 }
