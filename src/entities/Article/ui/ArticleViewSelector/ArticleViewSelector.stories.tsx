@@ -3,7 +3,7 @@ import { ArticleView } from 'entities/Article';
 import { ArticleViewSelector } from './ArticleViewSelector';
 
 const meta = {
-    title: 'shared/ArticleViewSelector',
+    title: 'entities/Article/ArticleViewSelector',
     component: ArticleViewSelector,
     parameters: {
         layout: 'centered',
