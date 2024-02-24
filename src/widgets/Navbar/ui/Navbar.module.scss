@@ -4,7 +4,6 @@
     background: var(--inverted-bg-color);
     display: flex;
     align-items: center;
-    justify-content: end;
     padding: 20px;
 }
 
@@ -14,4 +13,9 @@
 
 .mainLink {
     margin-right: 15px;
+}
+
+.appName {
+    width: var(--sidebar-width);
+    margin-left: 15px;
 }
